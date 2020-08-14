@@ -1,3 +1,35 @@
+@font-face {
+  font-family: "Product Sans";
+  src: url("../fonts/ProductSans-Italic.woff2") format("woff2"),
+      url("../fonts/ProductSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Product Sans";
+  src: url("../fonts/ProductSans-BoldItalic.woff2") format("woff2"),
+      url("../fonts/ProductSans-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Product Sans";
+  src: url("../fonts/ProductSans-Regular.woff2") format("woff2"),
+      url("fonts/ProductSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Product Sans";
+  src: url("../fonts/ProductSans-Bold.woff2") format("woff2"),
+      url("../fonts/ProductSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
 html {
   box-sizing: border-box;
 }
@@ -5,4 +37,14 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+}
+body {
+  font-family: "Product Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+.container {
+  width: 1148px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 24px;
 }
